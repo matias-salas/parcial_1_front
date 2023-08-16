@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from './Form.module.css';
 import Card from '../Card/Card'
 
-const FormComponent = () => {
+const Form = () => {
     const [paciente, setPaciente] = useState({});
     const [enviado, setEnviado] = useState(false);
     const [error, setError] = useState(false);
@@ -61,4 +61,4 @@ const FormComponent = () => {
   };
   
 
-export default FormComponent;
+export default Form;
