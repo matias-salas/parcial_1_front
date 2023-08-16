@@ -1,0 +1,72 @@
+.formContainer {
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formTitle {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .formLabel {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .formInput {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .formInput:focus {
+    outline: none;
+    border-color: #6a9ed6;
+    box-shadow: 0px 0px 5px rgba(106, 158, 214, 0.5);
+  }
+  
+  .buttonContainer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .formButton {
+    padding: 10px 20px;
+    background-color: #6a9ed6;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .formButton:hover {
+    background-color: #5081af;
+  }
+  
+  .resultContainer {
+    margin-top: 20px;
+  }
+  
+  .resultTitle {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .errorMessage {
+    color: red;
+  }
+  
